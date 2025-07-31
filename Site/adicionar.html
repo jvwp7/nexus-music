@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Music</title>
+    <meta name="description" content="🚀 Adicione o NEXUS MUSIC ao seu servidor Discord e transforme sua experiência musical!">
+    <meta name="keywords" content="adicionar, bot, música, discord, nexus music, invite">
+    <meta name="author" content="jvwp7">
+    <meta property="og:title" content="Adicionar - NEXUS MUSIC">
+    <meta property="og:description" content="🚀 Adicione o NEXUS MUSIC ao seu servidor Discord e transforme sua experiência musical!">
+    <meta property="og:image" content="https://cdn.discordapp.com/attachments/1398474711888822346/1398490952577978399/Logo.png?ex=68863671&is=6884e4f1&hm=c5aa21ee07b695c233206c4112a4f8b7039b2a90b3eaa6614229abecd5744bb5&">
+    <meta property="og:url" content="https://nexus-music-bot.vercel.app/adicionar.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1398474711888822346/1398490952577978399/Logo.png?ex=68863671&is=6884e4f1&hm=c5aa21ee07b695c233206c4112a4f8b7039b2a90b3eaa6614229abecd5744bb5&">
+    <link rel="apple-touch-icon" href="https://cdn.discordapp.com/attachments/1398474711888822346/1398490952577978399/Logo.png?ex=68863671&is=6884e4f1&hm=c5aa21ee07b695c233206c4112a4f8b7039b2a90b3eaa6614229abecd5744bb5&">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <div class="logo-icon">
+                        <div class="robot-head">
+                            <div class="robot-screen">
+                                <i class="fas fa-music"></i>
+                            </div>
+                            <div class="robot-antenna"></div>
+                            <div class="headphones">
+                                <div class="headphone-left"></div>
+                                <div class="headphone-right"></div>
+                            </div>
+                        </div>
+                        <div class="equalizer">
+                            <div class="bar bar1"></div>
+                            <div class="bar bar2"></div>
+                            <div class="bar bar3"></div>
+                            <div class="bar bar4"></div>
+                        </div>
+                    </div>
+                    <div class="logo-text">
+                        <span class="nexus">NEXUS</span>
+                        <span class="music">MUSIC</span>
+                    </div>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="recursos.html">Recursos</a></li>
+                    <li><a href="comandos.html">Comandos</a></li>
+                    <li><a href="adicionar.html" class="active">Adicionar</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <div class="hero-text">
+                        <span class="nexus-large">ADICIONAR</span>
+                        <span class="music-large">NEXUS</span>
+                    </div>
+                </h1>
+                <p class="hero-subtitle">
+                    Adicione o NEXUS MUSIC ao seu servidor Discord e transforme sua experiência musical!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add Bot Section -->
+    <section class="add-bot">
+        <div class="container">
+            <h2 class="section-title">🚀 Adicione o NEXUS MUSIC ao Seu Servidor</h2>
+            <div class="add-options">
+                <div class="add-option">
+                    <div class="option-icon">
+                        <i class="fab fa-discord"></i>
+                    </div>
+                    <h3>Adicionar via Discord</h3>
+                    <p>Clique no botão abaixo para adicionar o bot diretamente ao seu servidor Discord.</p>
+                    <a href="#" class="btn btn-discord" onclick="addToDiscord()">
+                        <i class="fab fa-discord"></i>
+                        Adicionar NEXUS MUSIC
+                    </a>
+                </div>
+                <div class="add-option">
+                    <div class="option-icon">
+                        <i class="fas fa-link"></i>
+                    </div>
+                    <h3>Link Direto</h3>
+                    <p>Use este link para adicionar o bot ao seu servidor:</p>
+                    <div class="link-container">
+                        <input type="text" value="https://discord.com/api/oauth2/authorize?client_id=1398354228149354638&permissions=314880&scope=bot%20applications.commands" readonly>
+                        <button class="copy-btn" onclick="copyLink()">
+                            <i class="fas fa-copy"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="add-option">
+                    <div class="option-icon">
+                        <i class="fas fa-terminal"></i>
+                    </div>
+                    <h3>Comando Manual</h3>
+                    <p>Execute este comando no seu servidor:</p>
+                    <div class="command-container">
+                        <code>n!adicionar</code>
+                        <button class="copy-btn" onclick="copyCommand()">
+                            <i class="fas fa-copy"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="add-option">
+                    <div class="option-icon">
+                        <i class="fas fa-qrcode"></i>
+                    </div>
+                    <h3>Código QR</h3>
+                    <p>Escaneie o QR code para adicionar o bot rapidamente:</p>
+                    <div class="qr-container">
+                        <img src="nexus-music-qr.png" alt="QR Code NEXUS MUSIC" class="qr-code-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="qr-placeholder" style="display: none;">
+                            <i class="fas fa-qrcode"></i>
+                            <span>QR Code NEXUS MUSIC</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Permissions Section -->
+    <section class="permissions">
+        <div class="container">
+            <h2 class="section-title">🔐 Permissões Necessárias</h2>
+            <div class="permissions-grid">
+                <div class="permission-card">
+                    <div class="permission-icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <h3>Conectar</h3>
+                    <p>Permite que o bot entre nos canais de voz para reproduzir música.</p>
+                </div>
+                <div class="permission-card">
+                    <div class="permission-icon">
+                        <i class="fas fa-volume-up"></i>
+                    </div>
+                    <h3>Falar</h3>
+                    <p>Permite que o bot reproduza áudio nos canais de voz.</p>
+                </div>
+                <div class="permission-card">
+                    <div class="permission-icon">
+                        <i class="fas fa-comment"></i>
+                    </div>
+                    <h3>Enviar Mensagens</h3>
+                    <p>Permite que o bot envie mensagens com informações sobre músicas.</p>
+                </div>
+                <div class="permission-card">
+                    <div class="permission-icon">
+                        <i class="fas fa-link"></i>
+                    </div>
+                    <h3>Incorporar Links</h3>
+                    <p>Permite que o bot envie embeds com informações detalhadas.</p>
+                </div>
+                <div class="permission-card">
+                    <div class="permission-icon">
+                        <i class="fas fa-list"></i>
+                    </div>
+                    <h3>Gerenciar Mensagens</h3>
+                    <p>Permite que o bot gerencie mensagens para manter o chat limpo.</p>
+                </div>
+                <div class="permission-card">
+                    <div class="permission-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Ver Canais</h3>
+                    <p>Permite que o bot veja todos os canais do servidor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>
+                        <div class="footer-logo">
+                            <div class="robot-head-small">
+                                <div class="robot-screen-small">
+                                    <i class="fas fa-music"></i>
+                                </div>
+                            </div>
+                        </div>
+                        NEXUS MUSIC
+                    </h3>
+                    <p>O melhor bot de música para Discord, desenvolvido com ❤️ para a comunidade.</p>
+                    <div class="social-links">
+                        <a href="https://discord.gg/XVrXB37bRr" target="_blank"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Úteis</h4>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="recursos.html">Recursos</a></li>
+                        <li><a href="comandos.html">Comandos</a></li>
+                        <li><a href="adicionar.html">Adicionar Bot</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 NEXUS MUSIC. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

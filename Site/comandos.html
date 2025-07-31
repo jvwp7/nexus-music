@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Music</title>
+    <meta name="description" content="📋 Todos os comandos disponíveis no NEXUS MUSIC. Use o prefixo n! antes de cada comando!">
+    <meta name="keywords" content="comandos, bot, música, discord, nexus music, n!">
+    <meta name="author" content="jvwp7">
+    <meta property="og:title" content="Comandos - NEXUS MUSIC">
+    <meta property="og:description" content="📋 Todos os comandos disponíveis no NEXUS MUSIC. Use o prefixo n! antes de cada comando!">
+    <meta property="og:image" content="https://cdn.discordapp.com/attachments/1398474711888822346/1398490952577978399/Logo.png?ex=68863671&is=6884e4f1&hm=c5aa21ee07b695c233206c4112a4f8b7039b2a90b3eaa6614229abecd5744bb5&">
+    <meta property="og:url" content="https://nexus-music-bot.vercel.app/comandos.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1398474711888822346/1398490952577978399/Logo.png?ex=68863671&is=6884e4f1&hm=c5aa21ee07b695c233206c4112a4f8b7039b2a90b3eaa6614229abecd5744bb5&">
+    <link rel="apple-touch-icon" href="https://cdn.discordapp.com/attachments/1398474711888822346/1398490952577978399/Logo.png?ex=68863671&is=6884e4f1&hm=c5aa21ee07b695c233206c4112a4f8b7039b2a90b3eaa6614229abecd5744bb5&">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <div class="logo-icon">
+                        <div class="robot-head">
+                            <div class="robot-screen">
+                                <i class="fas fa-music"></i>
+                            </div>
+                            <div class="robot-antenna"></div>
+                            <div class="headphones">
+                                <div class="headphone-left"></div>
+                                <div class="headphone-right"></div>
+                            </div>
+                        </div>
+                        <div class="equalizer">
+                            <div class="bar bar1"></div>
+                            <div class="bar bar2"></div>
+                            <div class="bar bar3"></div>
+                            <div class="bar bar4"></div>
+                        </div>
+                    </div>
+                    <div class="logo-text">
+                        <span class="nexus">NEXUS</span>
+                        <span class="music">MUSIC</span>
+                    </div>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="recursos.html">Recursos</a></li>
+                    <li><a href="comandos.html" class="active">Comandos</a></li>
+                    <li><a href="adicionar.html">Adicionar</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <div class="hero-text">
+                        <span class="nexus-large">COMANDOS</span>
+                        <span class="music-large">NEXUS</span>
+                    </div>
+                </h1>
+                <p class="hero-subtitle">
+                    Todos os comandos disponíveis no NEXUS MUSIC. Use o prefixo <code>n!</code> antes de cada comando!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Commands Section -->
+    <section class="commands">
+        <div class="container">
+            <h2 class="section-title">🎮 Comandos Principais</h2>
+            <div class="commands-grid">
+                <div class="command-category">
+                    <h3><i class="fas fa-play"></i> Reprodução</h3>
+                    <div class="command-list">
+                        <div class="command-item">
+                            <code>n!tocar</code>
+                            <span>Reproduzir música</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!pausar</code>
+                            <span>Pausar música</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!retomar</code>
+                            <span>Retomar música</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!parar</code>
+                            <span>Parar música</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!pular</code>
+                            <span>Pular música</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!voltar</code>
+                            <span>Voltar música</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="command-category">
+                    <h3><i class="fas fa-list"></i> Fila</h3>
+                    <div class="command-list">
+                        <div class="command-item">
+                            <code>n!fila</code>
+                            <span>Ver fila de músicas</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!embaralhar</code>
+                            <span>Embaralhar fila</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!limpar</code>
+                            <span>Limpar fila</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!remover</code>
+                            <span>Remover música</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!irpara</code>
+                            <span>Pular para posição</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!repetir</code>
+                            <span>Ativar loop</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="command-category">
+                    <h3><i class="fas fa-cog"></i> Controles</h3>
+                    <div class="command-list">
+                        <div class="command-item">
+                            <code>n!volume</code>
+                            <span>Ajustar volume</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!letra</code>
+                            <span>Ver letra</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!tocando</code>
+                            <span>Música atual</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!procurar</code>
+                            <span>Pular tempo</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!filtro</code>
+                            <span>Aplicar filtros</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!salvar</code>
+                            <span>Salvar música</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="command-category">
+                    <h3><i class="fas fa-search"></i> Busca</h3>
+                    <div class="command-list">
+                        <div class="command-item">
+                            <code>n!buscar</code>
+                            <span>Buscar música</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!proximamusica</code>
+                            <span>Adicionar próximo</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!historico</code>
+                            <span>Histórico</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!letrassincronizada</code>
+                            <span>Letras sincronizadas</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="command-category">
+                    <h3><i class="fas fa-info-circle"></i> Informações</h3>
+                    <div class="command-list">
+                        <div class="command-item">
+                            <code>n!ajuda</code>
+                            <span>Ver todos os comandos</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!ping</code>
+                            <span>Verificar latência</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!adicionar</code>
+                            <span>Link para adicionar</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!doar</code>
+                            <span>Fazer doação</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!status</code>
+                            <span>Status do bot</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advanced Commands Section -->
+    <section class="commands">
+        <div class="container">
+            <h2 class="section-title">🎛️ Comandos Avançados</h2>
+            <div class="commands-grid">
+                <div class="command-category">
+                    <h3><i class="fas fa-music"></i> Música Avançada</h3>
+                    <div class="command-list">
+                        <div class="command-item">
+                            <code>n!controller</code>
+                            <span>Painel de controle</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!save</code>
+                            <span>Salvar música atual</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!filter</code>
+                            <span>Aplicar filtros de áudio</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!seek</code>
+                            <span>Pular para tempo específico</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="command-category">
+                    <h3><i class="fas fa-cogs"></i> Configurações</h3>
+                    <div class="command-list">
+                        <div class="command-item">
+                            <code>n!volume [1-100]</code>
+                            <span>Definir volume específico</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!loop [modo]</code>
+                            <span>Configurar loop</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!shuffle</code>
+                            <span>Embaralhar fila atual</span>
+                        </div>
+                        <div class="command-item">
+                            <code>n!clear</code>
+                            <span>Limpar toda a fila</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add Bot Section -->
+    <section class="add-bot-section">
+        <div class="container">
+            <h2 class="section-title">🚀 Adicione o NEXUS MUSIC ao Seu Servidor</h2>
+            <div class="add-bot-content">
+                <div class="add-bot-info">
+                    <h3>📱 Escaneie o QR Code</h3>
+                    <p>Use seu celular para escanear o QR code e adicionar o bot rapidamente ao seu servidor!</p>
+                    <div class="qr-code-container">
+                        <img src="nexus-music-qr.png" alt="QR Code NEXUS MUSIC" class="qr-code-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="qr-placeholder" style="display: none;">
+                            <i class="fas fa-qrcode"></i>
+                            <span>QR Code NEXUS MUSIC</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="add-bot-commands">
+                    <h3>💬 Comandos Úteis</h3>
+                    <p>Use estes comandos para começar a usar o bot:</p>
+                    <div class="command-examples">
+                        <div class="command-example">
+                            <code>n!adicionar</code>
+                            <span>Receber link para adicionar o bot</span>
+                        </div>
+                        <div class="command-example">
+                            <code>n!ajuda</code>
+                            <span>Ver todos os comandos disponíveis</span>
+                        </div>
+                        <div class="command-example">
+                            <code>n!tocar [música]</code>
+                            <span>Reproduzir uma música</span>
+                        </div>
+                        <div class="command-example">
+                            <code>n!status</code>
+                            <span>Ver status do bot</span>
+                        </div>
+                    </div>
+                    <div class="add-bot-button">
+                        <a href="adicionar.html" class="btn btn-primary">
+                            <i class="fas fa-plus"></i>
+                            Adicionar NEXUS MUSIC
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <div class="robot-head-small">
+                        <div class="robot-screen-small">
+                            <i class="fas fa-music"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>NEXUS MUSIC</h3>
+                        <p>O melhor bot de música para Discord</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Links Úteis</h3>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="recursos.html">Recursos</a></li>
+                    <li><a href="comandos.html">Comandos</a></li>
+                    <li><a href="adicionar.html">Adicionar</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Suporte</h3>
+                <ul>
+                    <li><a href="https://discord.gg/XVrXB37bRr">Discord</a></li>
+                    <li><a href="mailto:suporte.nexusmusic@gmail.com">Email</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Redes Sociais</h3>
+                <div class="social-links">
+                    <a href="https://discord.gg/XVrXB37bRr" title="Discord">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 NEXUS MUSIC. Feito com ❤️ por jvwp7</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
