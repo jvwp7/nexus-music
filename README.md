@@ -304,12 +304,6 @@ Contribuições são sempre bem-vindas! Este projeto é open source e aceita con
 
 ---
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](Bot/LICENSE) para mais detalhes.
-
----
-
 ## 👨‍💻 Autor
 
 **jvwp7** - Desenvolvedor do Nexus Music
