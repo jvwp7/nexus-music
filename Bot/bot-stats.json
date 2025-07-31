@@ -1,0 +1,46 @@
+{
+  "totalSongsPlayed": 25,
+  "totalServers": 4,
+  "totalUsers": 2,
+  "uptime": 90037,
+  "lastUpdated": 1753583439218,
+  "realTimeSongs": [
+    {
+      "id": 1753583379193,
+      "title": "Forró Universitário",
+      "artist": "Wesley Safadão",
+      "duration": "3:25",
+      "server": "Forró Dance",
+      "user": "Fernanda258",
+      "timestamp": 1753583379193
+    },
+    {
+      "id": 1753583409205,
+      "title": "Rock Nacional",
+      "artist": "Legião Urbana",
+      "duration": "4:15",
+      "server": "Rock Club",
+      "user": "Pedro789",
+      "timestamp": 1753583409205
+    },
+    {
+      "id": 1753583439218,
+      "title": "Pagode Romântico",
+      "artist": "Exaltasamba",
+      "duration": "3:40",
+      "server": "Pagode Bar",
+      "user": "Roberto147",
+      "timestamp": 1753583439218
+    }
+  ],
+  "activeServers": [
+    "1358542316779999382",
+    "1383852820435828826",
+    "1398150755487187004",
+    "1398458154098102298"
+  ],
+  "activeUsers": [
+    "1398354228149354638",
+    "632982949842649098"
+  ]
+}
