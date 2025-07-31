@@ -4,12 +4,9 @@
   <img src="Logos/Logo.png" alt="Nexus Music Logo" width="200"/>
   
   ### O bot de música mais avançado para Discord
-  
-  [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/nexusmusic)
+  s
   [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
   [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-  
-  [Adicionar ao Discord](https://discord.com/api/oauth2/authorize?client_id=YOUR_BOT_ID&permissions=8&scope=bot%20applications.commands) • [Website](https://nexus-music-bot.vercel.app) • [Documentação](https://nexus-music-bot.vercel.app/comandos.html)
 </div>
 
 ---
