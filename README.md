@@ -4,9 +4,10 @@
   <img src="Logos/Logo.png" alt="Nexus Music Logo" width="200"/>
   
   ### O bot de música mais avançado para Discord
-  
+
   [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
   [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+  
 </div>
 
 ---
@@ -30,12 +31,12 @@
 
 ## ✨ Sobre o Projeto
 
-O **Nexus Music** é um bot de música avançado para Discord desenvolvido com foco na qualidade de áudio e experiência do usuário. Com suporte a múltiplas plataformas de streaming, interface intuitiva e recursos exclusivos, o Nexus Music oferece a melhor experiência de música para sua comunidade Discord.
+O **Nexus Music** é um bot de música avançado para Discord desenvolvido com foco na qualidade de áudio e experiência do usuário. Este projeto open source oferece suporte a múltiplas plataformas de streaming, interface intuitiva e recursos exclusivos, sendo ideal para estudo, desenvolvimento e implementação de bots de música no Discord.
 
 ### 🎵 Principais Características
 
 - **Alta Qualidade de Áudio**: Reprodução em qualidade HD
-- **Múltiplas Plataformas**: YouTube, Spotify, SoundCloud e mais
+- **Múltiplas Plataformas**: YouTube e Spotify
 - **Interface Intuitiva**: Controles fáceis de usar
 - **Recursos Avançados**: Filtros de áudio, letras sincronizadas, histórico
 - **Estabilidade**: Sistema robusto e confiável
@@ -89,10 +90,6 @@ O **Nexus Music** é um bot de música avançado para Discord desenvolvido com f
 ### Plataformas Suportadas
 - **YouTube** - Vídeos e playlists
 - **Spotify** - Músicas e playlists
-- **SoundCloud** - Músicas e playlists
-- **Deezer** - Músicas e playlists
-- **Apple Music** - Músicas e playlists
-
 ---
 
 ## 📁 Estrutura do Projeto
@@ -134,7 +131,7 @@ Nexus Music/
 
 1. **Clone o repositório**
    ```bash
-   git clone https://github.com/seu-usuario/nexus-music.git
+   git clone https://github.com/jvwp7/nexus-music.git
    cd nexus-music/Bot
    ```
 
@@ -168,6 +165,8 @@ Nexus Music/
    - Speak
    - Use Voice Activity
 
+> **⚠️ Importante**: Este é um projeto educacional. Para usar em produção, certifique-se de configurar adequadamente as variáveis de ambiente e seguir as melhores práticas de segurança.
+
 ---
 
 ## 🎮 Comandos
@@ -200,7 +199,7 @@ Nexus Music/
 
 ## 🌐 Website
 
-O projeto inclui um website moderno e responsivo desenvolvido com HTML5, CSS3 e JavaScript.
+O projeto inclui um website moderno e responsivo desenvolvido com HTML5, CSS3 e JavaScript, servindo como demonstração das capacidades do bot e documentação para desenvolvedores.
 
 ### 📱 Características do Website
 
@@ -265,6 +264,8 @@ O bot inclui um sistema de estatísticas que monitora:
 - **Músicas**: Total de músicas reproduzidas
 - **Tempo Online**: Tempo de atividade do bot
 
+> **💡 Dica**: O sistema de estatísticas pode ser personalizado conforme suas necessidades específicas.
+
 ### 📈 Métricas Disponíveis
 
 - Tempo de atividade
@@ -277,13 +278,22 @@ O bot inclui um sistema de estatísticas que monitora:
 
 ## 🤝 Contribuindo
 
-Contribuições são sempre bem-vindas! Para contribuir:
+Contribuições são sempre bem-vindas! Este projeto é open source e aceita contribuições da comunidade. Para contribuir:
 
 1. **Fork o projeto**
 2. **Crie uma branch para sua feature** (`git checkout -b feature/AmazingFeature`)
 3. **Commit suas mudanças** (`git commit -m 'Add some AmazingFeature'`)
 4. **Push para a branch** (`git push origin feature/AmazingFeature`)
 5. **Abra um Pull Request**
+
+### 🎯 Áreas para Contribuição
+
+- **Novos comandos de música**
+- **Melhorias na interface**
+- **Otimizações de performance**
+- **Correção de bugs**
+- **Documentação**
+- **Traduções**
 
 ### 📋 Diretrizes de Contribuição
 
@@ -305,14 +315,17 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](Bot/LICENSE) par
 **jvwp7** - Desenvolvedor do Nexus Music
 
 - **GitHub**: [@jvwp7](https://github.com/jvwp7)
-- **Discord**: jvwp7#0000
-- **Website**: [Nexus Music](https://nexus-music-bot.vercel.app)
+- **Discord**: jvwp7
 
-### 🙏 Agradecimentos
+### 🎓 Sobre o Projeto
 
-- Comunidade Discord.js
-- Discord Player
-- Todos os contribuidores e usuários
+Este projeto foi desenvolvido como uma demonstração de como criar um bot de música completo para Discord usando Node.js e Discord.js. É ideal para desenvolvedores que querem aprender sobre:
+
+- **APIs do Discord**
+- **Sistemas de áudio**
+- **Desenvolvimento de bots**
+- **Interface web responsiva**
+- **Integração com plataformas de streaming**
 
 ---
 
@@ -320,9 +333,6 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](Bot/LICENSE) par
   
   ### ⭐ Se este projeto te ajudou, considere dar uma estrela!
   
-  [![GitHub stars](https://img.shields.io/github/stars/seu-usuario/nexus-music?style=social)](https://github.com/seu-usuario/nexus-music)
-  [![GitHub forks](https://img.shields.io/github/forks/seu-usuario/nexus-music?style=social)](https://github.com/seu-usuario/nexus-music)
-  
-  **Nexus Music** - Transformando a experiência musical no Discord 🎵
+  **Nexus Music** - Projeto open source para desenvolvimento de bots de música 🎵
   
 </div> 
